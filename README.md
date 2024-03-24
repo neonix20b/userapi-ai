@@ -80,13 +80,13 @@ You can use it to generate images of people, animals, objects, and anything else
 ```ruby
     client = UserapiAi::Client.new(service: :midjourney)
     result = client.imagine(prompt: "nice girl")
-    or
+    # or
     result = client.imagine(prompt: "nice girl",
                             webhook_url: "https://example.com/imagine/webhook-url",
                             webhook_type: "progress", # or result
                             account_hash: "a7d44910-88a6-4673-acc8-d60ffc3479a6",
                             is_disable_prefilter: false)
-    then
+    # then
     client.status(result)
 ```
 
@@ -109,7 +109,7 @@ See more [here](https://butternut-saffron-e5e.notion.site/Midjourney-userapi-ai-
 
 You can split the quad-layout output from Midjourney into 4 separate images. 
 
-Add the gem to your Gemfile:
+Add the gem to your Gemfile.
 
 ```rb
 gem "mini_magick"
