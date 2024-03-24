@@ -105,7 +105,7 @@ You can use it to generate images of people, animals, objects, and anything else
 ```
 See more [here](https://butternut-saffron-e5e.notion.site/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142#9abe719bb58948039acb5f0a6aee8947).
 
-#### Tools
+## Magick Tools
 
 You can split the quad-layout output from Midjourney into 4 separate images. 
 
