@@ -103,7 +103,31 @@ You can use it to generate images of people, animals, objects, and anything else
                             webhook_url:  "https://example.com/upscale/webhook-url",
                             webhook_type: "result")
 ```
-See more [here](https://butternut-saffron-e5e.notion.site/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142#9abe719bb58948039acb5f0a6aee8947)
+See more [here](https://butternut-saffron-e5e.notion.site/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142#9abe719bb58948039acb5f0a6aee8947).
+
+#### Tools
+
+You can split the quad-layout output from Midjourney into 4 separate images. Don't forget to add the `gem 'mini_magick'`.
+
+```ruby
+    response = client.status result
+    if response["status"] == "done"
+      local_paths = UserapiAi::Tool.crop result: response["result"] 
+      # or UserapiAi::Tool.crop url: "https://example.com/img.png"
+      local_paths.each do |path|
+           f = File.open(path)
+           ...
+        end
+    end
+```
+
+```bash
+=> local_paths
+["/var/folders/yb/bjdvl6mn3cx2l7nd08726k500000gn/T/mini_magick20240324-73984-31zmkb-0.png",
+ "/var/folders/yb/bjdvl6mn3cx2l7nd08726k500000gn/T/mini_magick20240324-73984-31zmkb-1.png",
+ "/var/folders/yb/bjdvl6mn3cx2l7nd08726k500000gn/T/mini_magick20240324-73984-31zmkb-2.png",
+ "/var/folders/yb/bjdvl6mn3cx2l7nd08726k500000gn/T/mini_magick20240324-73984-31zmkb-3.png"]
+```
 
 ## Development
 

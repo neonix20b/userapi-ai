@@ -5,6 +5,7 @@ require "faraday/multipart"
 
 require_relative "userapi/http"
 require_relative "userapi/client"
+require_relative "userapi/tools"
 require_relative "userapi/version"
 
 module UserapiAi
