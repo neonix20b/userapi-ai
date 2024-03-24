@@ -1,11 +1,23 @@
-# Midjourney Ruby
+# Userapi.ai Ruby
 
 [![Gem Version](https://badge.fury.io/rb/userapi-ai.svg)](https://badge.fury.io/rb/userapi-ai)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/neonix20b/userapi-ai/blob/main/LICENSE.txt)
 
 Userapi.ai is an awesome tool that brings great value to products.
 This gem was created to facilitate Ruby and also Rails applications to use all services of Userapi.ai:
-  - Midjourney
+  - Midjourney API
+      - [Imagine](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Describe](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Upscale](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Upsample](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Variation](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Inpaint](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Blend](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Reroll](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Zoom](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Pan](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Info](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
+      - [Status](https://www.notion.so/Midjourney-userapi-ai-doc-en-119680339b0a47e2ba6ae467eca58142?pvs=21)
 
 ## Installation
 
