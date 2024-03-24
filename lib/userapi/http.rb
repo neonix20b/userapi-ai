@@ -7,9 +7,6 @@ module UserapiAi
     end
 
     def json_post(path:, parameters:)
-      puts uri(path: path)
-      puts headers
-      puts parameters.to_json
       to_json(conn.post(uri(path: path)) do |req|
         req.headers = headers
         req.body = parameters.to_json
@@ -21,7 +18,12 @@ module UserapiAi
     def to_json(string)
       return unless string
 
-      JSON.parse(string)
+      json = JSON.parse(string)
+      if json["status"] == false and json.has_key?("error")
+        raise StandardError.new json["error"]
+      else
+        json
+      end
     rescue JSON::ParserError
       # Convert a multiline string of JSON objects to a JSON array.
       JSON.parse(string.gsub("}\n{", "},{").prepend("[").concat("]"))
