@@ -107,7 +107,15 @@ See more [here](https://butternut-saffron-e5e.notion.site/Midjourney-userapi-ai-
 
 #### Tools
 
-You can split the quad-layout output from Midjourney into 4 separate images. Don't forget to add the `gem 'mini_magick'`.
+You can split the quad-layout output from Midjourney into 4 separate images. 
+
+Add the gem to your Gemfile:
+
+```rb
+gem "mini_magick"
+```
+
+Now you can do some magick.
 
 ```ruby
     response = client.status result
