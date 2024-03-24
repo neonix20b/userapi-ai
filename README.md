@@ -46,10 +46,10 @@ That's it. You are now ready to go!
 ## Usage
 
 Make sure you have a
+  - A Userapi.ai account at [Userapi.ai](https://userapi.ai/)
   - Discord Account or create one at [Discord](https://discord.com)
   - A Midjourney account or sign up at [Midjourney](https://www.midjourney.com)
   - A Midjourney Paid plan to use this gem or sign up at [Midjourney Plans](https://www.midjourney.com/account/)
-  - A Userapi.ai Paid plan at [Userapi.ai](https://userapi.ai/)
 
 After signing in, you can get your Discord token by checking out any message request you send in the browser.
 You can do this by opening the developer tools in your browser and going to the network tab.
