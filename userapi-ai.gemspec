@@ -4,7 +4,7 @@ require_relative "lib/userapi/version"
 
 Gem::Specification.new do |spec|
   spec.name = "userapi-ai"
-  spec.version = Userapi::VERSION
+  spec.version = UserapiAi::VERSION
   spec.authors = ["Smolev Denis"]
   spec.email = ["smolev@me.com"]
 
