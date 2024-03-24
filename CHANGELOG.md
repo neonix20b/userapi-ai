@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+## [0.3.2] - 2024-03-24
+- Fix description
+  
 ## [0.3.0] - 2024-03-24
 - Tools: crop
 
