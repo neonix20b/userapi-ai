@@ -54,7 +54,7 @@ Make sure you have a
 After signing in, you can get your Discord token by checking out any message request you send in the browser.
 You can do this by opening the developer tools in your browser and going to the network tab.
 Then send a message in any channel and look for the request to `messages` in the network tab.
-Check out the Request Headers and look for the `authorization` header. Copy the value of the header and use it as your Discord User Tokens.
+Check out the Request Headers and look for the `authorization` header. Copy the value of the header and use it as your Discord User Tokens. [Read more here](https://blog.userapi.ai/post/5).
 
 ### Configuration
 
