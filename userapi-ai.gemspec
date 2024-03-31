@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Userapi.ai (midjourney) + Ruby."
   spec.description = "This library provides a convenient way to interact with the Midjourney via API offered by the UserAPI.ai website. All major methods are available, including: imagine, describe, upscale, variations, inpaint (vary region), pan, zoom, and reroll, working in the remix mode."
-  spec.homepage = "https://userapi.ai"
+  spec.homepage = "https://ai.oxteam.me"
   spec.license = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.0")
 
